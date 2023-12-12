@@ -13,6 +13,9 @@ import { EscogeBitaComponent } from './componentes/escoge-bita/escoge-bita.compo
 import { PreguntasfreComponent } from './componentes/preguntasfre/preguntasfre.component';
 import { DisenabitComponent } from './componentes/disenabit/disenabit.component';
 import { BtnprincipalesComponent } from './componentes/btnprincipales/btnprincipales.component';
+import { DahsboardComponent } from './componentes/dahsboard/dahsboard.component';
+import { MenulateralComponent } from './componentes/menulateral/menulateral.component';
+import { MenusuperiorComponent } from './componentes/menusuperior/menusuperior.component';
 
 @NgModule({
   declarations: [
@@ -27,6 +30,9 @@ import { BtnprincipalesComponent } from './componentes/btnprincipales/btnprincip
     PreguntasfreComponent,
     DisenabitComponent,
     BtnprincipalesComponent,
+    DahsboardComponent,
+    MenulateralComponent,
+    MenusuperiorComponent,
   
   ],
   imports: [

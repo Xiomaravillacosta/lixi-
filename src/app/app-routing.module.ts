@@ -7,6 +7,8 @@ import { QuienesSomosComponent } from './componentes/quienes-somos/quienes-somos
 import { PreguntasfreComponent } from './componentes/preguntasfre/preguntasfre.component';
 import { EscogeBitaComponent } from './componentes/escoge-bita/escoge-bita.component';
 import { FooterComponent } from './componentes/footer/footer.component';
+import { DisenabitComponent } from './componentes/disenabit/disenabit.component';
+import { DahsboardComponent } from './componentes/dahsboard/dahsboard.component';
 
 const routes: Routes = [
   {path:"",component:HomeComponent,pathMatch:"full"},
@@ -17,6 +19,9 @@ const routes: Routes = [
   {path:"escogeBita",component:EscogeBitaComponent,pathMatch:"full"},
   {path:"footer",component:FooterComponent,pathMatch:"full"},
   {path:"registro",component:RegistroComponent,pathMatch:"full"},
+  {path:"disenabit",component:DisenabitComponent,pathMatch:"full"},
+  {path:"dashboard",component:DahsboardComponent,pathMatch:"full"},
+
 
   
  
